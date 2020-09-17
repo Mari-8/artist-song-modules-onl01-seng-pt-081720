@@ -1,5 +1,7 @@
 module Memorable 
-  
+  module ClassMethods 
+    def reset_all 
+      self.aa
   
   def reset_all
     all.clear
