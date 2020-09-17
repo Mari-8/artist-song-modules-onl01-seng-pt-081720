@@ -11,7 +11,8 @@ module Memorable
   
   module InstanceMethods 
     def initialize 
-      
+      super
+      @songs = []
     end 
   end 
 end
